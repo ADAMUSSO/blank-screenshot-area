@@ -4,7 +4,7 @@ A small GNOME Shell extension that makes the built-in screenshot tool forget the
 
 By default, GNOME remembers the rectangle you selected last time and shows it again whenever you open the screenshot UI. With this extension the screen opens without a selection, and you draw a new area every time, like the Windows Snipping Tool.
 
-It works no matter how you open the screenshot UI (Print key, `Shift+Super+S` or a custom shortcut).
+It works no matter how you open the screenshot UI (Print key, `Shift+Super+S`(Windows) or a custom shortcut).
 
 ## Compatibility
 
