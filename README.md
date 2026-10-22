@@ -17,15 +17,15 @@ The extension changes an internal part of GNOME Shell's screenshot UI, which may
 
 ## Installation
 
-1. Download `blank-screenshot-area@adamusso.github.io.shell-extension.zip` from [Releases](https://github.com/ADAMUSSO/blank-screenshot-area/releases).
+1. Download `blank-screenshot-area.zip` from [Releases](https://github.com/ADAMUSSO/blank-screenshot-area/releases).
 2. Install it:
    ```bash
-   gnome-extensions install --force blank-screenshot-area@adamusso.github.io.shell-extension.zip
+   gnome-extensions install --force blank-screenshot-area.zip
    ```
 3. Log out and log back in. On Wayland, GNOME only loads newly installed extensions after you log in again.
 4. Enable it:
    ```bash
-   gnome-extensions enable blank-screenshot-area@adamusso.github.io
+   gnome-extensions enable blank-screenshot-area@adamusso
    ```
 
 ### From source
@@ -34,7 +34,7 @@ The extension changes an internal part of GNOME Shell's screenshot UI, which may
 git clone https://github.com/ADAMUSSO/blank-screenshot-area.git
 cd blank-screenshot-area
 ./pack.sh
-gnome-extensions install --force dist/blank-screenshot-area@adamusso.github.io.shell-extension.zip
+gnome-extensions install --force dist/blank-screenshot-area.zip
 ```
 
 Then log out, log back in and enable it as in step 4.
@@ -42,7 +42,7 @@ Then log out, log back in and enable it as in step 4.
 ## Uninstall
 
 ```bash
-gnome-extensions uninstall blank-screenshot-area@adamusso.github.io
+gnome-extensions uninstall blank-screenshot-area@adamusso
 ```
 
 ## Known limitations
