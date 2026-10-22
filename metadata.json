@@ -1,0 +1,8 @@
+{
+  "uuid": "blank-screenshot-area@adamusso.github.io",
+  "name": "Blank Screenshot Area",
+  "description": "Makes the built-in screenshot tool forget the last selected area, so you draw a new one every time – like the Windows Snipping Tool.",
+  "shell-version": ["50"],
+  "url": "https://github.com/ADAMUSSO/blank-screenshot-area",
+  "version-name": "1.0"
+}
